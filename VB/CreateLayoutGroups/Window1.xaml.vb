@@ -13,22 +13,22 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace CreateLayoutGroups
-    ''' <summary>
-    ''' Interaction logic for Window1.xaml
-    ''' </summary>
-    Partial Public Class Window1
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for Window1.xaml
+	''' </summary>
+	Partial Public Class Window1
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+		End Sub
 
-        Private Sub button1_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            RootGroup.Items.Remove(LayoutGroup3)
-        End Sub
+		Private Sub button1_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
+			RootGroup.Items.Remove(LayoutGroup3)
+		End Sub
 
-        Private Sub button2_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            RootGroup.Items.Add(LayoutGroup3)
-        End Sub
-    End Class
+		Private Sub button2_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
+			RootGroup.Items.Add(LayoutGroup3)
+		End Sub
+	End Class
 End Namespace
