@@ -5,7 +5,7 @@
 
 # WPF Dock Layout Manager - Hide/Show a LayoutGroup
 
-Get the Items collection of the RootGroup, and remove/add the necessary group.
+Get the Items collection of the RootGroup, and remove/add the required group.
 
 <img src="https://user-images.githubusercontent.com/12169834/175357136-7003ae26-fea9-4f35-83d9-26ce0973bb30.png" width=800px/>
 
